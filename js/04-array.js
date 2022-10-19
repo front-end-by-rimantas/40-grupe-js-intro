@@ -47,6 +47,49 @@ const pirkiniai = [
     ['saukstas', 15],
     ['bulves', 30],
     ['kiausiniai', 10],
+    ['grietine', 1],
 ];
+const prekesIndex = 6;
+const preke = pirkiniai[prekesIndex];
+const prekesKiekis = preke[1];
+const prekesPavadinimas = preke[0];
+const prekesAprasas = `Reikia nupirkti ${prekesKiekis} ${prekesPavadinimas}.`;
 
-console.log(pirkiniai);
+console.log(prekesAprasas);
+
+// mokykla > klases > mokiniai > tevus > telefonai
+const mokykla = [
+    [1, [
+        ['Petras', [
+            ['Petro tete', [
+                112,
+            ]],
+            ['Petro mama', [
+                911,
+            ]],
+        ]],
+        ['Maryte', [
+            ['Marytes tete', [
+                123456,
+                123457,
+                123458,
+            ]],
+            ['Marytes mama', [
+                654321,
+                654320,
+            ]],
+        ]],
+    ]],
+    [2, [
+        ['Jonas', [
+            ['Jono tete', []],
+            ['Jono mama', []],
+        ]],
+        ['Ona', [
+            ['Onos tete', [
+                99999,
+            ]],
+            ['Onos mama', []],
+        ]],
+    ]],
+];
