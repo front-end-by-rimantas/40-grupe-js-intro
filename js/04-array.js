@@ -93,3 +93,11 @@ const mokykla = [
         ]],
     ]],
 ];
+
+// Jono mamos tel kiekis
+const klase = 1;
+const mokinioIndex = 1;
+const tevuIndex = 0;
+
+const telefonai = mokykla[klase - 1][1][mokinioIndex][1][tevuIndex][1].length;
+console.log(telefonai);
