@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "array": "nodemon ./js/03-array.js",
+        "object": "nodemon ./js/05-object.js",
+        "array": "nodemon ./js/04-array.js",
         "boolean": "nodemon ./js/03-boolean.js",
         "string": "nodemon ./js/02-string.js",
         "numbers": "nodemon ./js/01-numbers.js",
