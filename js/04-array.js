@@ -45,7 +45,8 @@ const pirkiniai = [
     ['druska', 1],
     ['bliudas', 1],
     ['saukstas', 15],
-    ['bulves', 30]
+    ['bulves', 30],
+    ['kiausiniai', 10],
 ];
 
 console.log(pirkiniai);
