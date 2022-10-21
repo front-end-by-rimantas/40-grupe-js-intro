@@ -135,21 +135,3 @@ if (temp >= siltaNuoTemp && arLyja === true) {
 }
 
 console.log(ats2);
-
-// https://www.codewars.com/kata/574b3b1599d8f897470018f6/solutions/javascript
-
-function getRealFloor(n) {
-    if (n <= 0) {
-        return n;
-    }
-
-    if (n < 13) {
-        return n - 1;
-    } else {
-        return n - 2;
-    }
-}
-console.log(getRealFloor(1), 0);
-console.log(getRealFloor(5), 4);
-console.log(getRealFloor(15), 13);
-console.log(getRealFloor(-2), -2);
