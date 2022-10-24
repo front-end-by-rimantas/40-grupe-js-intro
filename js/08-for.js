@@ -90,17 +90,26 @@ sumaIntervale(-5, -5);
 console.log('--------------');
 
 const list = [
-    { start: 0, end: 0 },
-    { start: 0, end: 4 },
-    { start: 0, end: 100 },
+    {},
+    { end: 4 },
+    { end: 100 },
     { start: 574, end: 815 },
     { start: -50, end: 50 },
+    { start: -50 },
     { start: -70, end: 30 },
 ];
 
 let obj = null;
 for (let i = 0; i < list.length; i = i + 1) {
     obj = list[i];
-    sumaIntervale(obj.start, obj.end);
+    let pradzia = obj.start;
+    let pabaiga = obj.end;
+    if (!pradzia) {
+        pradzia = 0;
+    }
+    if (!pabaiga) {
+        pabaiga = 0;
+    }
+    sumaIntervale(pradzia, pabaiga);
 }
 console.log(obj);
