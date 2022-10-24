@@ -113,3 +113,21 @@ for (let i = 0; i < list.length; i = i + 1) {
     sumaIntervale(pradzia, pabaiga);
 }
 console.log(obj);
+
+console.log('--------------');
+
+const abc = ['a', 'b', 'c', 'd', 'e'];
+console.log(abc);
+
+for (let i = 0; i < abc.length; i = i + 1) {
+    const symbol = abc[i];
+    console.log(symbol);
+}
+
+const username = 'sula';
+console.log(username);
+
+for (let i = 0; i < username.length; i = i + 1) {
+    const symbol = username[i];
+    console.log(symbol);
+}
