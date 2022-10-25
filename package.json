@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "ternary": "nodemon ./js/11-ternary.js",
         "reverse-string": "nodemon ./js/10-reverse-string.js",
         "multiply": "nodemon ./js/09-multiply.js",
         "for": "nodemon ./js/08-for.js",
