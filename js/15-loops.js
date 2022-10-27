@@ -145,4 +145,23 @@ const filterOther = filterBefore.filter(function (item) {
 });
 console.log('Others:', filterBefore, filterOther);
 
-// console.clear();
+console.clear();
+
+// SORT - modifikuoja masyva isrikiuojant jo duomenis
+
+const keyboardNumber = [7, 8, 9, 4, 4, 10, 5, 11, 77, 114, 6, 1, 1, 2, 3, 0];
+console.log(keyboardNumber);
+
+keyboardNumber.sort(function (a, b) {
+    if (a > b) {
+        return 1;
+    } else if (a === b) {
+        return 0;
+    } else {
+        return -1;
+    }
+});
+console.log(keyboardNumber);
+
+keyboardNumber.sort();
+console.log(keyboardNumber);
