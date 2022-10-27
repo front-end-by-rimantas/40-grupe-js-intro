@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "spread": "nodemon ./js/17-spread.js",
+        "arrow": "nodemon ./js/16-arrow.js",
         "loops": "nodemon ./js/15-loops.js",
         "string-methods": "nodemon ./js/14-string-methods.js",
         "numSize": "nodemon ./js/13-numSize.js",

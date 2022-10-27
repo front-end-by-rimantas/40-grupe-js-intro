@@ -165,3 +165,60 @@ console.log(keyboardNumber);
 
 keyboardNumber.sort();
 console.log(keyboardNumber);
+
+console.clear();
+
+// REDUCE - masyvo visas reiksmes suvesti i viena galutine reiksme
+
+const marks2 = [10, 2, 8, 4, 6];
+const sumReduce = marks2.reduce(function (total, n) {
+    return total + n;
+});
+console.log('Reduce sum:', sumReduce);
+
+const marks3 = [1, 2, 3, 4, 5];
+const productReduce = marks3.reduce(function (total, n) {
+    return total * n;
+});
+console.log('Reduce product:', productReduce);
+
+const marks4 = [10, 2, 8, 4, 6];
+const minusReduce = marks4.reduce(function (total, n) {
+    return total - n;
+});
+console.log('Reduce minus:', minusReduce);
+
+const marks2_50 = [10, 2, 8, 4, 6];
+const sumReduce50 = marks2_50.reduce(function (total, n) {
+    return total + n;
+}, 50);
+console.log('Reduce sum:', sumReduce50);
+
+const marks3_0 = [1, 2, 3, 4, 5];
+const productReduce0 = marks3_0.reduce(function (total, n) {
+    return total * n;
+}, 10);
+console.log('Reduce product:', productReduce0);
+
+
+// DEMO
+
+const list = [0, 3, 2, 1, 6, 5, 4, 9, 8, 7];
+
+const ats = list
+    .map(function (n) {
+        return n * 2 + 1;
+    })
+    .filter(function (n) {
+        return n % 5 === 0 || n % 3 === 0;
+    })
+    .sort(function (a, b) {
+        if (a > b) { return 1 }
+        if (a === b) { return 0 }
+        return -1;
+    })
+    .reduce(function (total, n) {
+        return total + n;
+    }, 0);
+
+console.log(ats);
