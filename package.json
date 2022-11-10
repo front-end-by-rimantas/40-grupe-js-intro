@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "iife": "nodemon ./js/18-iife.js",
         "spread": "nodemon ./js/17-spread.js",
         "arrow": "nodemon ./js/16-arrow.js",
         "loops": "nodemon ./js/15-loops.js",
